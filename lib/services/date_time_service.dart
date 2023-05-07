@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:saxonmarket/views/global_components/k_date_time_modal_content.dart';
-import 'package:saxonmarket/views/styles/b_style.dart';
+import 'package:dog/views/global_components/k_date_time_modal_content.dart';
+import 'package:dog/views/styles/b_style.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 class DateTimeService {

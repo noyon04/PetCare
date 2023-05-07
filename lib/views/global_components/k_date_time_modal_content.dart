@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:saxonmarket/views/styles/b_style.dart';
+import 'package:dog/views/styles/b_style.dart';
 
 class KDateTimeModalContent extends StatelessWidget {
   final bool isDate, isFirstNow;
