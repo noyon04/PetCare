@@ -20,7 +20,7 @@ class KTextStyle {
 
   static TextStyle headline2 = GoogleFonts.montserrat(fontSize: 58, fontWeight: FontWeight.w300, letterSpacing: -0.5);
 
-  static TextStyle headline3 = GoogleFonts.montserrat(fontSize: 46, fontWeight: FontWeight.w400);
+  static TextStyle headline3 = GoogleFonts.montserrat(fontSize: 46, fontWeight: FontWeight.w400,letterSpacing: -0.5);
 
   static TextStyle headline4 = GoogleFonts.montserrat(fontSize: 34, fontWeight: FontWeight.w400, letterSpacing: 0.25);
 

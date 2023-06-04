@@ -21,7 +21,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    initData();
+    // initData();
   }
 
   initData() async {
@@ -48,7 +48,19 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: KColor.primary,
-      body: Center(child: Image.asset(AssetPath.splashScreen)),
+      body: Container(
+        // color: Colors.white,
+        height: SizeConfig.screenHeight,
+        width: SizeConfig.screenWidth,
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage(
+              AssetPath.splashScreen,
+            ),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
     );
   }
 }

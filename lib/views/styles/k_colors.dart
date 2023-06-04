@@ -72,6 +72,10 @@ class KColor {
   static const Color greyLight = Color(0xFF35343D);
   static const Color greyBlue = Color(0xFF394168);
   static const Color shippingBox = Color(0xFFDAD9E2);
+  static const Color orangeColor = Color(0xFFF1A852);
+  static const Color yellowColor = Color(0xFFFFCF6F);
+  static const Color greyColor = Color(0xFFE6E7F8);
+  static const Color violet = Color(0xFF4552CB);
 
   /*
   normal color
